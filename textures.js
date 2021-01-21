@@ -59,7 +59,7 @@ scene.background = environmentMapTexture
 // Using textures
 // --------------------------------------------------------------------------------
 
-const textureLoader = new THREE.TextureLoader()
+const textureLoader = new THREE.TextureLoader(loadingManager)
 
 // Color (Albedo) texture
 const colorTexture = textureLoader.load("texture.jpg")
