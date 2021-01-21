@@ -16,5 +16,5 @@ Three.js textures follow the PBR (Physcially Based Rendering) principle, as well
 | Ambient Occlusion | Add fake, physically incorrect, static shadows to create 3D contrast | JPG | Yes | N/A | N/A |
 | Metalness (usually used in combination with roughness) | Light reflections | JPG | Yes | Metalic | Not-metalic |
 | Roughness (opposite of glossy) | Light diffusion. Smoother will show sharper and brighter reflections | JPG | Yes | Rough | Smooth |
-| Matcap (material capture) | Fake PBR, includes built-in lighting and reflections, defines color for every vertex normal relative to the camera | JPG | N/A | N/A | N/A |
+| Matcap (material capture) | Fake PBR, includes built-in lighting and reflections, defines color for every vertex normal relative to the camera | PNG | N/A | N/A | N/A |
 | Gradient | Light to dark gradient. Usually used for cartoonish looks | JPG | Yes | White | Black |
