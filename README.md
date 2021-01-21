@@ -4,7 +4,7 @@ Last updated: January 21, 2021
 Three.js textures follow the PBR (Physcially Based Rendering) principle, as well as other 3D software like Blender.
 
 ### Texture Types
-The following textures are `mapped` to the material.
+The following textures are mapped to the material.
 Multiple texture maps can be applied to the same geometry at the same time.
 
 | Texture Type  | Effect  | Format | Grayscale | White | Black
