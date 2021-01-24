@@ -12,7 +12,7 @@ Three.js textures follow the PBR (Physcially Based Rendering) principle, as well
 | Color (Albedo) | Basic image texture | JPG | N/A | N/A | N/A |
 | Alpha | Visibility of image texture | JPG | Yes | Visible | Hidden |
 | Displacement (Height) | Changes vertex positions to displace geometry, requires large amount of subdivisions (vertices to work with) | JPG | Yes (Grayscale: height remains unchanged) | Higher | Lower |
-| Normal | Add details to material without adding or manipulating vertices / subdivisions | PNG | N/A | N/A | N/A |
+| Normal | Add details to material without adding or manipulating vertices / subdivisions, reacts to light | PNG | N/A | N/A | N/A |
 | Ambient Occlusion | Add fake, physically incorrect, static shadows to create 3D contrast | JPG | Yes | N/A | N/A |
 | Metalness (usually used in combination with roughness) | Light reflections | JPG | Yes | Metalic | Not-metalic |
 | Roughness (opposite of glossy) | Light diffusion. Smoother will show sharper and brighter reflections | JPG | Yes | Rough | Smooth |
