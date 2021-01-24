@@ -107,8 +107,8 @@ cube.geometry.setAttribute(
 const metalnessTexture = textureLoader.load("metalness.jpg")
 const roughnessTexture = textureLoader.load("roughness.jpg")
 const material = new THREE.MeshStandardMaterial({
-  metalness: metalnessTexture,
-  roughness: roughnessTexture,
+  metalnessMap: metalnessTexture,
+  roughnessMap: roughnessTexture,
   // when using metalness and roughness maps, the metalness and roughness values should not be explicitly declared
 })
 
